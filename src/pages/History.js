@@ -44,7 +44,7 @@ export default function History() {
           nevezzük magunkat görögkatolikusnak? Mit jelent a „görög” jelző az
           elnevezésünkben? Gondolkoztál már ezen?
         </p>
-        <p className="pb">
+        <p className="pb-1">
           A „görög” azt jelenti elnevezésünkben, hogy „bizánci szertartású”.
           Amikor az Úr Jézus missziós parancsának (
           <span className="quote">
@@ -83,18 +83,15 @@ export default function History() {
           Erdélyben is élnek), a kopt (Egyiptomban), a szír (a Közel-Kelet
           országaiban), a káld (Irakban), illetve a malabár (Indiában).
         </p>
-        <div className="img-container all-center">
-          <LazyLoad
-            width={100}
-            height={100}
-            debounce={false}
-            offsetVertical={500}
-          >
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
             <img
+              className="rounded"
               src={viPalAthenagorasz}
               alt="VI. Pál és Athenagorasz pátriárka"
             />
           </LazyLoad>
+          <p className="card-2 p">VI. Pál és Athenagorasz pátriárka</p>
         </div>
         <p className="pb">
           Hosszú évszázadokon át a rítusok különbözősége nem okozott problémát a
@@ -182,7 +179,7 @@ export default function History() {
           István, Kossuth Lajos, Deák Ferenc és mások – küzdöttek Magyarország
           gazdaságának és társadalmának felvirágoztatásáért.
         </p>
-        <p className="pb">
+        <p className="pb-1">
           A magyar görögkatolikusok lelkesen csatlakoztak ezekhez a
           mozgalmakhoz, s amikor 1848/49-ben a magyar haza szabadságáért
           fegyvert kellett fogni, ők is kivették a részüket a harcból. Kevesen
@@ -192,15 +189,15 @@ export default function History() {
           görögökatolikus – köztük papok és kispapok is – vett részt a
           szabadságharcban, áldozta életét, vagy szenvedett hosszú várfogságot.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad
-            width={100}
-            height={100}
-            debounce={false}
-            offsetVertical={500}
-          >
-            <img src={hierotheosz} alt="Hierotheosz püspök" />
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img
+              className="rounded"
+              src={hierotheosz}
+              alt="Hierotheosz püspök"
+            />
           </LazyLoad>
+          <p className="card-2 p">Hierotheosz püspök</p>
         </div>
         <p className="pb">
           A magyar görögkatolikusok tehát a haza hű fiaiként egyre inkább
@@ -260,17 +257,22 @@ export default function History() {
           szertartásokat, a görögkatolikus templomokban pedig az ószláv vagy a
           román volt a megengedett.
         </p>
-        <p className="pb">
+        <p className="pb-1">
           A magyar görögkatolikusok úgy gondolták, hogy ha saját egyházmegyéjük
           lenne és nem ószláv (Munkácsi és Eperjesi), illetve román (Nagyváradi,
           Szamosújvár, Gyulafehérvár-Fogaras) liturgikus nyelvű egyházmegyékhez
           tartoznának, akkor a magyar nyelv liturgikus használatának bevezetése
           is könnyebb lenne.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={hajdudorogiTemplom} alt="A hajdúdorogi templom XIX. században"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img
+              className="rounded"
+              src={hajdudorogiTemplom}
+              alt="A hajdúdorogi templom XIX. században"
+            />
           </LazyLoad>
+          <p className="card-2 p">A hajdúdorogi templom XIX. században</p>
         </div>
         <p className="pb">
           Magyarországon a legnagyobb magyar görögkatolikus egyházközség a
@@ -324,7 +326,7 @@ export default function History() {
           imádkozhassanak a templomban, most mégis a puszta létezésüket kellett
           bizonygatni.
         </p>
-        <p className="pb">
+        <p className="pb-1">
           A sok-sok csalódás és az újra és újra megfogalmazott vádak nem vették
           el a kedvüket a küzdelemtől. Három évtizeddel a hajdúdorogi
           kongresszus után 1898-ban Budapesten megalakult a Görög Szertartású
@@ -350,12 +352,17 @@ export default function History() {
           görögkatolikusoknak megengedik az anyanyelvük használatát, akkor a
           római katolikus magyarok is azt fogják kérni.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={alapitoBulla} alt="Az alapító bulla"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img
+              className="rounded"
+              src={alapitoBulla}
+              alt="Az alapító bulla"
+            />
           </LazyLoad>
+          <p className="card-2 p">Az alapító bulla</p>
         </div>
-        <p className="pb">
+        <p className="pb-1">
           A római zarándoklat után még hosszú évek teltek el az egyházmegye
           felállításáig. A magyar görögkatolikusok a kormány támogatásával
           szerették volna megszerezni a pápa engedélyét nem csak a Hajdúdorogi
@@ -375,12 +382,17 @@ export default function History() {
           június 8-án adta ki a Christifideles graeci kezdetű bullát, amivel az
           alapítást jóváhagyta.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={miklosyIstvan} alt="Miklósy István püspök"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img
+              className="rounded"
+              src={miklosyIstvan}
+              alt="Miklósy István püspök"
+            />
           </LazyLoad>
+          <p className="card-2 p">Miklósy István püspök</p>
         </div>
-        <p className="pb">
+        <p className="pb-1">
           A Hajdúdorogi Egyházmegye megalapítása hatalmas örömmel töltötte el a
           magyar görögkatolikusokat. Örömüket az sem árnyékolta be, hogy a pápa
           elrendelte: a magyar nyelvet nem szabad használni az új
@@ -397,12 +409,17 @@ export default function History() {
           október 5-én. Miklósy püspök az egyházmegye székhelyét ideiglenesen
           Debrecenbe helyezte.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={debreceniBombamerenyletAldozatai} alt="A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth Sándor és Slepkovszky János"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img
+              className='rounded'
+              src={debreceniBombamerenyletAldozatai}
+              alt="A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth Sándor és Slepkovszky János"
+            />
           </LazyLoad>
+          <p className='card-2 p'>A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth Sándor és Slepkovszky János</p>
         </div>
-        <p className="pb">
+        <p className="pb-1">
           A Hajdúdorogi Egyházmegye megalapítására és az első püspök
           kinevezésére akkor került sor, amikor Európa egén sötét fellegek
           gyülekeztek. Biztosan hallottál már arról, hogy 1914 nyarán hatalmas
@@ -435,10 +452,11 @@ export default function History() {
           püspököt a csomag kibontása előtt egy másik szobába telefonhoz hívták,
           így ő csak kisebb sérüléseket szenvedett.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={pappAntal} alt="Papp Antal érsek"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img className='rounded' src={pappAntal} alt="Papp Antal érsek" />
           </LazyLoad>
+          <p className='card-2 p'>Papp Antal érsek</p>
         </div>
         <p className="pb">
           A merénylet után Miklósy püspök áthelyezte székhelyét Nyíregyházára
@@ -502,7 +520,7 @@ export default function History() {
           görögkatolikusság szolgálatába állították tehetségüket és
           szorgalmukat, amiért az utókor hálával emlékezik meg róluk.
         </p>
-        <p className="pb">
+        <p className="pb-1">
           Az első világháború után Magyarországon csak egy bazilita monostor
           maradt: a máriapócsi. A szerzetesek mindig fontos szerepet játszanak
           az egyház életében. A magyar görögkatolikusoknak is nagy szükségük
@@ -513,10 +531,11 @@ export default function History() {
           bazilita elöljáróként megszervezte a bazilita nővérek hajdúdorogi és
           máriapócsi letelepülését is.
         </p>
-        <div className="img-container all-center">
-          <LazyLoad width={100} height={100} debounce={false} offsetVertical={500}>
-            <img src={dudasMiklos} alt="Dudás Miklós püspök"/>
+        <div className="img-container all-center mb">
+          <LazyLoad debounce={false} offsetVertical={500}>
+            <img className='rounded' src={dudasMiklos} alt="Dudás Miklós püspök" />
           </LazyLoad>
+          <p className='card-2 p'>Dudás Miklós püspök</p>
         </div>
         <p className="pb">
           A Hajdúdorogi Egyházmegye első püspöke, Miklósy István 1937-ben halt
@@ -568,7 +587,7 @@ export default function History() {
           amiért őseink oly sokat küzdöttek.
         </p>
         <h4 className="pb">Kedves görögkatolikus barátom!</h4>
-        <p>
+        <p className="pb">
           Amikor ebben az esztendőben egyházmegyénk alapításának századik
           évfordulójára emlékezünk, fontos, hogy megemlékezzünk őseink
           küzdelméről. Láthatod, milyen sok áldozatot kellett hozniuk, milyen
@@ -576,7 +595,7 @@ export default function History() {
           az egyház iránti szeretetükből, a bizánci szertartáshoz, a katolikus
           hithez és a magyarságukhoz való ragaszkodásukból merítettek.
         </p>
-        <p>
+        <p className="quote card-2 p">
           Tiszteld őseidet és szeresd görögkatolikus egyházadat az ő
           szeretetükkel!
         </p>

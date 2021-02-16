@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Hammersmith+One&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Hammersmith+One&family=Roboto&display=swap");
 
 /* Global Styles */
 :root {
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   background-color: #fff;
@@ -31,11 +31,11 @@ body {
 /* Roboto for basic content */
 
 .title {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
 }
 
 .quote {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
 }
 
 .header {
@@ -63,7 +63,7 @@ ul {
 }
 
 img {
-  width: 100%;
+  width: calc(100vw - 2rem);
 }
 
 /* Utilities */
@@ -138,8 +138,20 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
-  margin: 0.7rem 0;
+  margin: 5px;
+  width: calc(100vw - 10px);
+  border: #ccc 1px solid;
+  border-radius: 3px;
+  background: var(--light-color);
+  box-shadow: 1px 1px 1px #333, 2px 2px 1px #555, 3px 3px 1px #777;
+  display: inline-block;
+}
+
+.card-2 {
+  width: 100%;
+  border-radius: 3px;
+  background: rgba(250, 250, 250, 0.6);
+  box-shadow: 1px 1px 1px #333, 2px 2px 1px #555, 3px 3px 1px #777;
 }
 
 /* List */
@@ -362,6 +374,11 @@ img {
 
 .round-img {
   border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #333, 2px 2px 1px #555, 3px 3px 1px #777;
 }
 
 /* Forms */
