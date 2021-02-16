@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/greek-catholic-church-hs/static/css/main.94c00062.chunk.css",
-    "main.js": "/greek-catholic-church-hs/static/js/main.d5d03d67.chunk.js",
-    "main.js.map": "/greek-catholic-church-hs/static/js/main.d5d03d67.chunk.js.map",
+    "main.css": "/greek-catholic-church-hs/static/css/main.1e454eec.chunk.css",
+    "main.js": "/greek-catholic-church-hs/static/js/main.32ad32c5.chunk.js",
+    "main.js.map": "/greek-catholic-church-hs/static/js/main.32ad32c5.chunk.js.map",
     "runtime-main.js": "/greek-catholic-church-hs/static/js/runtime-main.55d93dc4.js",
     "runtime-main.js.map": "/greek-catholic-church-hs/static/js/runtime-main.55d93dc4.js.map",
     "static/js/2.8e069e1f.chunk.js": "/greek-catholic-church-hs/static/js/2.8e069e1f.chunk.js",
     "static/js/2.8e069e1f.chunk.js.map": "/greek-catholic-church-hs/static/js/2.8e069e1f.chunk.js.map",
     "index.html": "/greek-catholic-church-hs/index.html",
-    "static/css/main.94c00062.chunk.css.map": "/greek-catholic-church-hs/static/css/main.94c00062.chunk.css.map",
+    "static/css/main.1e454eec.chunk.css.map": "/greek-catholic-church-hs/static/css/main.1e454eec.chunk.css.map",
     "static/js/2.8e069e1f.chunk.js.LICENSE.txt": "/greek-catholic-church-hs/static/js/2.8e069e1f.chunk.js.LICENSE.txt",
     "static/media/ICXC_NIKA.45b76602.svg": "/greek-catholic-church-hs/static/media/ICXC_NIKA.45b76602.svg",
     "static/media/alapito_bulla.62aff984.jpg": "/greek-catholic-church-hs/static/media/alapito_bulla.62aff984.jpg",
@@ -16,7 +16,7 @@
     "static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg": "/greek-catholic-church-hs/static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg",
     "static/media/dudas_miklos_puspok.98eb8c75.jpg": "/greek-catholic-church-hs/static/media/dudas_miklos_puspok.98eb8c75.jpg",
     "static/media/greek_catholic_church_historical_hajdudorog.a2d46f11.jpg": "/greek-catholic-church-hs/static/media/greek_catholic_church_historical_hajdudorog.a2d46f11.jpg",
-    "static/media/hierotheosz_puspok.4b8b46fc.jpg": "/greek-catholic-church-hs/static/media/hierotheosz_puspok.4b8b46fc.jpg",
+    "static/media/hierotheosz_puspok.d8c55451.jpg": "/greek-catholic-church-hs/static/media/hierotheosz_puspok.d8c55451.jpg",
     "static/media/logo-szukre-mediakozpont2019-436x429-1.b2fbae5f.png": "/greek-catholic-church-hs/static/media/logo-szukre-mediakozpont2019-436x429-1.b2fbae5f.png",
     "static/media/map.58cfd678.jpg": "/greek-catholic-church-hs/static/media/map.58cfd678.jpg",
     "static/media/miklosy_szenteles_utan.f6a86118.jpg": "/greek-catholic-church-hs/static/media/miklosy_szenteles_utan.f6a86118.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.55d93dc4.js",
     "static/js/2.8e069e1f.chunk.js",
-    "static/css/main.94c00062.chunk.css",
-    "static/js/main.d5d03d67.chunk.js"
+    "static/css/main.1e454eec.chunk.css",
+    "static/js/main.32ad32c5.chunk.js"
   ]
 }
