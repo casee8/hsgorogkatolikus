@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/greek-catholic-church-hs/static/css/main.1e454eec.chunk.css",
-    "main.js": "/greek-catholic-church-hs/static/js/main.57b0dbae.chunk.js",
-    "main.js.map": "/greek-catholic-church-hs/static/js/main.57b0dbae.chunk.js.map",
+    "main.css": "/greek-catholic-church-hs/static/css/main.ecab93df.chunk.css",
+    "main.js": "/greek-catholic-church-hs/static/js/main.ddd988a8.chunk.js",
+    "main.js.map": "/greek-catholic-church-hs/static/js/main.ddd988a8.chunk.js.map",
     "runtime-main.js": "/greek-catholic-church-hs/static/js/runtime-main.55d93dc4.js",
     "runtime-main.js.map": "/greek-catholic-church-hs/static/js/runtime-main.55d93dc4.js.map",
-    "static/js/2.93d24b49.chunk.js": "/greek-catholic-church-hs/static/js/2.93d24b49.chunk.js",
-    "static/js/2.93d24b49.chunk.js.map": "/greek-catholic-church-hs/static/js/2.93d24b49.chunk.js.map",
+    "static/js/2.0f908597.chunk.js": "/greek-catholic-church-hs/static/js/2.0f908597.chunk.js",
+    "static/js/2.0f908597.chunk.js.map": "/greek-catholic-church-hs/static/js/2.0f908597.chunk.js.map",
     "index.html": "/greek-catholic-church-hs/index.html",
-    "static/css/main.1e454eec.chunk.css.map": "/greek-catholic-church-hs/static/css/main.1e454eec.chunk.css.map",
-    "static/js/2.93d24b49.chunk.js.LICENSE.txt": "/greek-catholic-church-hs/static/js/2.93d24b49.chunk.js.LICENSE.txt",
+    "static/css/main.ecab93df.chunk.css.map": "/greek-catholic-church-hs/static/css/main.ecab93df.chunk.css.map",
+    "static/js/2.0f908597.chunk.js.LICENSE.txt": "/greek-catholic-church-hs/static/js/2.0f908597.chunk.js.LICENSE.txt",
     "static/media/ICXC_NIKA.45b76602.svg": "/greek-catholic-church-hs/static/media/ICXC_NIKA.45b76602.svg",
     "static/media/alapito_bulla.62aff984.jpg": "/greek-catholic-church-hs/static/media/alapito_bulla.62aff984.jpg",
     "static/media/App.css": "/greek-catholic-church-hs/static/media/background.14ee0cd0.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55d93dc4.js",
-    "static/js/2.93d24b49.chunk.js",
-    "static/css/main.1e454eec.chunk.css",
-    "static/js/main.57b0dbae.chunk.js"
+    "static/js/2.0f908597.chunk.js",
+    "static/css/main.ecab93df.chunk.css",
+    "static/js/main.ddd988a8.chunk.js"
   ]
 }
