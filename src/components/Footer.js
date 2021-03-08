@@ -3,7 +3,7 @@ import ICXC_NIKA from "../media/logo-szukre-mediakozpont2019-436x429-1.png";
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer'>
       <div className="bg-dark">
         <div className='all-center'>
           <img

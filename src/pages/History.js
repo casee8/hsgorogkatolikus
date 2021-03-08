@@ -11,7 +11,7 @@ import dudasMiklos from "../media/dudas_miklos_puspok.jpg";
 
 export default function History() {
   return (
-    <div className="mb-1">
+    <div className="container">
       <div>
         <h3 className="title header text-center py-3">
           Görögkatolikusok Magyarországon
@@ -44,16 +44,20 @@ export default function History() {
           nevezzük magunkat görögkatolikusnak? Mit jelent a „görög” jelző az
           elnevezésünkben? Gondolkoztál már ezen?
         </p>
-        <p className="pb-1">
+        <p>
           A „görög” azt jelenti elnevezésünkben, hogy „bizánci szertartású”.
-          Amikor az Úr Jézus missziós parancsának (
-          <span className="quote">
-            „Menjetek tehát, és tegyetek tanítvánnyá minden népet” Mt 31,19.
-          </span>
-          ) engedelmeskedve az apostolok Jeruzsálemből elindultak az akkor
-          ismert világba és hirdették minden népnek az Evangéliumot, rövid idő
-          alatt a Római Birodalomban – és azon kívül is – sok-sok városban sok
-          ezer ember fogadta el a keresztény hitet. Ők különböző népek gyermekei
+          Amikor az Úr Jézus missziós parancsának:
+        </p>
+        <div className='flex'>
+          <p className="badge-2 quote">
+            „Menjetek tehát, és tegyetek tanítvánnyá minden népet” - Mt 31,19.
+          </p>
+        </div>
+        <p className="pb-1">
+          engedelmeskedve az apostolok Jeruzsálemből elindultak az akkor ismert
+          világba és hirdették minden népnek az Evangéliumot, rövid idő alatt a
+          Római Birodalomban – és azon kívül is – sok-sok városban sok ezer
+          ember fogadta el a keresztény hitet. Ők különböző népek gyermekei
           voltak, akik az Evangélium befogadása után a maguk szokásainak
           megfelelően alakították ki egyházaik életét. Ugyanarra az alapra,
           Jézus Krisztus evangéliumára építkeztek, de a közös imádságban, a
@@ -119,11 +123,17 @@ export default function History() {
           csak hosszú és türelmes párbeszéddel lehet begyógyítani. Az erre tett
           kísérletet nevezzük ökumenikus párbeszédnek.
         </p>
-        <p className="pb">
+        <p>
           Természetesen a szakadás bekövetkezte után is történtek kísérletek az
           egyház egységének helyreállítására. Jézus ugyanis a tanítványaiért
-          imádkozva ezt kérte a Mennyei Atyától:{" "}
-          <span className="quote">„Legyenek mindnyájan egy”</span> (Jn 17,31).
+          imádkozva ezt kérte a Mennyei Atyától:
+        </p>
+        <div className='flex'>
+          <p className="badge-2 quote">
+            „Legyenek mindnyájan egy” - Jn. 17,31.
+          </p>
+        </div>
+        <p className='pb'>
           Az Úr Jézusnak ez a kérése szinte parancs minden keresztény számára és
           arra kötelez, hogy mindig keressük az egyház egységének útját. Ezt a
           múltban is sok-sok keresztény – keleten és nyugaton egyaránt –
@@ -412,12 +422,15 @@ export default function History() {
         <div className="img-container all-center mb">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
-              className='rounded'
+              className="rounded"
               src={debreceniBombamerenyletAldozatai}
               alt="A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth Sándor és Slepkovszky János"
             />
           </LazyLoad>
-          <p className='card-2 p'>A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth Sándor és Slepkovszky János</p>
+          <p className="card-2 p">
+            A debreceni bombamerénylet áldozatai: Jaczkovics Mihály, Dr. Csatth
+            Sándor és Slepkovszky János
+          </p>
         </div>
         <p className="pb-1">
           A Hajdúdorogi Egyházmegye megalapítására és az első püspök
@@ -454,9 +467,9 @@ export default function History() {
         </p>
         <div className="img-container all-center mb">
           <LazyLoad debounce={false} offsetVertical={500}>
-            <img className='rounded' src={pappAntal} alt="Papp Antal érsek" />
+            <img className="rounded" src={pappAntal} alt="Papp Antal érsek" />
           </LazyLoad>
-          <p className='card-2 p'>Papp Antal érsek</p>
+          <p className="card-2 p">Papp Antal érsek</p>
         </div>
         <p className="pb">
           A merénylet után Miklósy püspök áthelyezte székhelyét Nyíregyházára
@@ -533,9 +546,13 @@ export default function History() {
         </p>
         <div className="img-container all-center mb">
           <LazyLoad debounce={false} offsetVertical={500}>
-            <img className='rounded' src={dudasMiklos} alt="Dudás Miklós püspök" />
+            <img
+              className="rounded"
+              src={dudasMiklos}
+              alt="Dudás Miklós püspök"
+            />
           </LazyLoad>
-          <p className='card-2 p'>Dudás Miklós püspök</p>
+          <p className="card-2 p">Dudás Miklós püspök</p>
         </div>
         <p className="pb">
           A Hajdúdorogi Egyházmegye első püspöke, Miklósy István 1937-ben halt
@@ -595,7 +612,7 @@ export default function History() {
           az egyház iránti szeretetükből, a bizánci szertartáshoz, a katolikus
           hithez és a magyarságukhoz való ragaszkodásukból merítettek.
         </p>
-        <p className="quote card-2 p">
+        <p className="quote text-center">
           Tiszteld őseidet és szeresd görögkatolikus egyházadat az ő
           szeretetükkel!
         </p>

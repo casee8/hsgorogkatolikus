@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
   li {
-    padding: 18px 10px;
+    padding: 0 0.5rem;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     flex-flow: column nowrap;
     background-color: #0d2538;
     position: fixed;
@@ -29,19 +29,47 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <a href="/communityhouse">Közösségi Ház</a>
+        <Link to="/communityhouse">
+          <p>
+            Közösségi
+            <br />
+            Ház
+          </p>
+        </Link>
       </li>
       <li>
-        <a href="/history">Görögkatolikusok Magyarországon</a>
+        <Link to="/history">
+          <p>
+            Görögkatolikusok
+            <br />
+            Magyarországon
+          </p>
+        </Link>
       </li>
-      <li>Hírek</li>
-      <li>Online Biblia</li>
-      <li>Naptár</li>
       <li>
-        <a href="/about">Rólunk</a>
+        <Link to="/news">
+          <p>Hírek</p>
+        </Link>
       </li>
       <li>
-        <a href="/contact">Kapcsolat</a>
+        <Link to="/bible">
+          <p>Online<br />Biblia</p>
+        </Link>
+      </li>
+      <li>
+        <Link to="/calendar">
+          <p>Naptár</p>
+        </Link>
+      </li>
+      <li>
+        <Link to="/about">
+          <p>Rólunk</p>
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact">
+          <p>Kapcsolat</p>
+        </Link>
       </li>
     </Ul>
   );

@@ -19,10 +19,22 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
-  background-color: #fff;
+  background-color: #ccc;
   color: #333;
   background: url("../src/media/background.jpg") no-repeat fixed center;
   background-size: cover;
+}
+
+.for-footer {
+  min-height: calc(100vh - 65px);
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
 }
 
 /* Font families */
@@ -39,9 +51,8 @@ body {
 }
 
 .header {
-  color: #101;
-  text-shadow: 0 0 3px #ccc;
-  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 3px #101;
 }
 
 .content {
@@ -63,15 +74,13 @@ ul {
 }
 
 img {
-  width: calc(100vw - 2rem);
+  width: 100%;
 }
 
 /* Utilities */
 .container {
-  max-width: 1100px;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
+  margin-top: 65px;
+  /* max-width: 100%; */
 }
 
 /* Text Styles*/
@@ -138,8 +147,9 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  margin: 5px;
-  width: calc(100vw - 10px);
+  margin: 0.5rem auto;
+  text-align: center;
+  width: 100%;
   border: #ccc 1px solid;
   border-radius: 3px;
   background: var(--light-color);
@@ -148,7 +158,6 @@ img {
 }
 
 .card-2 {
-  width: 100%;
   border-radius: 3px;
   background: rgba(250, 250, 250, 0.6);
   box-shadow: 1px 1px 1px #333, 2px 2px 1px #555, 3px 3px 1px #777;
@@ -186,7 +195,7 @@ img {
   padding: 2rem 0;
 }
 .py-3 {
-  padding: 3rem 0;
+  padding: 3rem 0.5rem;
 }
 
 .pb {
@@ -422,12 +431,16 @@ table th {
 
 /* Navbar */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
   width: 100%;
   opacity: 0.9;
+  height: 64px;
 }
 
 .navbar ul {
@@ -436,8 +449,9 @@ table th {
 
 .navbar a {
   color: #fff;
-  padding: 0.45rem;
+  padding: 0.1rem;
   margin: 0 0.25rem;
+  font-size: 0.7rem;
 }
 
 .navbar a:hover {
@@ -446,12 +460,6 @@ table th {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
-}
-
-/* Footer */
-
-.for-footer {
-  min-height: calc(100vh - 70px);
 }
 
 /* Mobile Styles */
@@ -509,5 +517,60 @@ table th {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+  }
+}
+
+/* ==================== Media Queries ==================== */
+
+/*Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    padding: 0 3rem;
+  }
+
+  /* Navbar */
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 70%;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 4px 0 5px rgba(0, 0, 0, 0.7);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  .menu-nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 1080px and up) */
+@media only screen and (min-width: 1080px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; */
+    max-width: 1200px;
   }
 }
