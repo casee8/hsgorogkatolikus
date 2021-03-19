@@ -3,17 +3,17 @@
   "name": "Greek Catholic Church HS",
   "icons": [
     {
-      "src": "../src/media/maskable_icon_x96",
+      "src": "../src/media/maskable_icon_x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "../src/media/maskable_icon_x192",
+      "src": "../src/media/maskable_icon_x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/media/maskable_icon_x512",
+      "src": "../src/media/maskable_icon_x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
