@@ -1,10 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GCC-HS",
+  "name": "Greek Catholic Church HS",
   "icons": [
+    {
+      "src": "../src/media/maskable_icon_x96",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "../src/media/maskable_icon_x192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../src/media/maskable_icon_x512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ],
-  "start_url": ".",
+  "start_url": "https://www.hsgorogkatolikus.hu",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#8d1a9c",
   "background_color": "#ffffff"
 }
