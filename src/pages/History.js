@@ -48,7 +48,7 @@ export default function History() {
           A „görög” azt jelenti elnevezésünkben, hogy „bizánci szertartású”.
           Amikor az Úr Jézus missziós parancsának:
         </p>
-        <div className='flex'>
+        <div className='flex m'>
           <p className="badge-2 quote">
             „Menjetek tehát, és tegyetek tanítvánnyá minden népet” - Mt 31,19.
           </p>
@@ -87,7 +87,7 @@ export default function History() {
           Erdélyben is élnek), a kopt (Egyiptomban), a szír (a Közel-Kelet
           országaiban), a káld (Irakban), illetve a malabár (Indiában).
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-left">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
               className="rounded"
@@ -128,7 +128,7 @@ export default function History() {
           egyház egységének helyreállítására. Jézus ugyanis a tanítványaiért
           imádkozva ezt kérte a Mennyei Atyától:
         </p>
-        <div className='flex'>
+        <div className='flex m'>
           <p className="badge-2 quote">
             „Legyenek mindnyájan egy” - Jn. 17,31.
           </p>
@@ -199,7 +199,7 @@ export default function History() {
           görögökatolikus – köztük papok és kispapok is – vett részt a
           szabadságharcban, áldozta életét, vagy szenvedett hosszú várfogságot.
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-right">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
               className="rounded"
@@ -362,7 +362,7 @@ export default function History() {
           görögkatolikusoknak megengedik az anyanyelvük használatát, akkor a
           római katolikus magyarok is azt fogják kérni.
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-left">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
               className="rounded"
@@ -392,7 +392,7 @@ export default function History() {
           június 8-án adta ki a Christifideles graeci kezdetű bullát, amivel az
           alapítást jóváhagyta.
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-right">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
               className="rounded"
@@ -465,7 +465,7 @@ export default function History() {
           püspököt a csomag kibontása előtt egy másik szobába telefonhoz hívták,
           így ő csak kisebb sérüléseket szenvedett.
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-left">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img className="rounded" src={pappAntal} alt="Papp Antal érsek" />
           </LazyLoad>
@@ -544,7 +544,7 @@ export default function History() {
           bazilita elöljáróként megszervezte a bazilita nővérek hajdúdorogi és
           máriapócsi letelepülését is.
         </p>
-        <div className="img-container all-center mb">
+        <div className="img-container all-center mb img-float-right">
           <LazyLoad debounce={false} offsetVertical={500}>
             <img
               className="rounded"

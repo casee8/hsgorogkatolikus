@@ -6,7 +6,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   li {
-    padding: 0 0.5rem;
+    padding: 0 0.6rem;
   }
   @media (max-width: 767px) {
     flex-flow: column nowrap;
