@@ -58,6 +58,7 @@ body {
 .content {
   background: rgba(250, 250, 250, 0.6);
   /* margin: auto auto 1rem auto; */
+  height: fit-content;
 }
 
 a {
@@ -150,6 +151,7 @@ img {
   margin: 0.5rem auto;
   text-align: center;
   width: 100%;
+  height: fit-content;
   border: #ccc 1px solid;
   border-radius: 3px;
   background: var(--light-color);
@@ -241,6 +243,12 @@ img {
 }
 
 /* Grid */
+.flexible-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -559,7 +567,7 @@ table th {
   }
 
   .all-center {
-    width:auto;
+    width: auto;
   }
 
   .img-float-left {
@@ -582,6 +590,10 @@ table th {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .flexible-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .group-cards {
     display: flex;
     /* flex-wrap: wrap; */
