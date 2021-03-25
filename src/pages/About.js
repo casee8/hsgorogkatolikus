@@ -75,7 +75,7 @@ const About = () => {
           </div>
           <div className="card">
             <h4 className="pb">Liturgikus-szociális csoport:</h4>
-            <p>Vezető: Surányi</p>
+            <p>Vezető: Surányi Csabáné</p>
             <p>Szabó Attiláné</p>
             <p>Illés Sándorné</p>
             <p>Tóth-V. Enikő</p>
