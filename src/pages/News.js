@@ -1,43 +1,79 @@
 import React, { Component } from "react";
 import LazyLoad from "react-lazy-load";
 import fasting from "../media/fasting.jpg";
-import cross3x from "../media/cross3x.jpg";
+import entryToJerusalem from "../media/Entry_into_Jerusalem_Hajdudorog_Frame.jpg";
+import lastSupper from "../media/last-supper.jpg";
+import jezusKereszthalala from "../media/jezus_kereszthalala.jpg";
+import jezusFeltamadasa from "../media/jesus-ressurection.jpg";
 
 class News extends Component {
   render() {
     return (
       <div className="container">
-        <div className="flexible-grid py-3">
-          <div className="content">
+        <h3 className="title header text-center py-3">
+          Görögkatolikus hírek, események
+        </h3>
+        <div className="flexible-grid">
+          <div className="content mb-1">
             <h4 className="p-1">Húsvéti Ünnepkör</h4>
-            <LazyLoad debounce={false} offsetVertical={500}>
-              <img src={cross3x} alt="3 kereszt" />
-            </LazyLoad>
-            <div className="p-1">
-              <p className="mb">
-                Virágvasárnap, azaz március 28-án 11:00 órától barkaszenteléssel
-                összekötött liturgia lesz, amely Jézus Jeruzsálembe való
-                bevonulásáról szól.
-              </p>
-              <p className="mb">
-                Nagycsütörtök (április 1), nagypéntek (április 2) és
-                nagyszombaton (április 3) 17:00-kor lesz liturgia, ezeken a
-                napokon emlékezünk meg az utolsó vacsoráról, Jézus Krisztus
-                kereszthaláláról.
-              </p>
-              <p>
-                Húsvét vasárnap (április 4) pászkaszentelés lesz 8:30-tól,
-                hétfőn (április 5) 11:00 órától lesz a liturgia, amikor is Jézus
-                föltámadását ünnepeljük.
-              </p>
+            <div>
+              <div className="mb">
+                <LazyLoad debounce={false} offsetVertical={500}>
+                  <img
+                    src={entryToJerusalem}
+                    alt="Jézus Jeruzsálembe való bevonulása"
+                  />
+                </LazyLoad>
+                <p className="ps">
+                  Virágvasárnap (március 28) 11:00 órától{" "}
+                  <strong>barkaszenteléssel</strong> {" "}
+                  összekötött liturgia lesz - Jézus Jeruzsálembe való bevonulása
+                </p>
+              </div>
+              <div className="mb">
+                <LazyLoad debounce={false} offsetVertical={500}>
+                  <img src={lastSupper} alt="Utolsó vacsora" />
+                </LazyLoad>
+                <p className="ps">
+                  Nagycsütörtök (április 1) - Liturgia 17:00-kor - Utolsó
+                  vacsora
+                </p>
+              </div>
+              <div className="mb">
+                <LazyLoad debounce={false} offsetVertical={500}>
+                  <img src={jezusKereszthalala} alt="Jézus kereszthalála" />
+                </LazyLoad>
+                <p className="ps">
+                  Nagypéntek (április 2) - Liturgia 15:00-kor - Jézus
+                  kereszthalála
+                </p>
+              </div>
+              <div className="mb">
+                <LazyLoad debounce={false} offsetVertical={500}>
+                  <img src={jezusFeltamadasa} alt="Jézus feltámadása" />
+                </LazyLoad>
+                <p className="ps">
+                  Nagyszombat (április 3) - Liturgia 17:00-kor - Jézus
+                  feltámadása
+                </p>
+              </div>
+              <div>
+                <p className="mb ps">
+                  Húsvét vasárnap (április 4) <strong>pászkaszentelés</strong>{" "}
+                  lesz 8:30-tól
+                </p>
+                <p className="mb ps">
+                  Húsvét hétfőn (április 5) 11:00 órától lesz a liturgia.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="content">
+          <div className="content mb-1">
             <h4 className="p-1">Nagyböjt kezdete</h4>
             <LazyLoad debounce={false} offsetVertical={500}>
               <img src={fasting} alt="Nagyböjt" />
             </LazyLoad>
-            <div className='p-1'>
+            <div className="p-1">
               <p className="mb">
                 Február 15-én kezdődik a nagyböjti idő, felkészülés 40 napon át
                 a Húsvét szent ünnepére. A görögkatolikus egyházban a nagyböjt
