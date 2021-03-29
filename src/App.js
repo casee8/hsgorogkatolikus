@@ -9,15 +9,18 @@ import Bible from "./pages/Bible";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+// import CookieNote from "./components/CookieNote";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
+import Foundation from "./components/Foundation";
 
 function App() {
   return (
     <Router>
       <div>
-        <div className='for-footer'>
+        <div className="for-footer">
           <Navbar />
+          <Foundation />
           <ScrollToTop />
           <Switch>
             <Route exact path="/" component={MainPage} />
@@ -30,6 +33,7 @@ function App() {
             <Route exact path="/communityhouse" component={CommunityHouse} />
           </Switch>
         </div>
+        {/* <CookieNote /> */}
         <Footer />
       </div>
     </Router>
