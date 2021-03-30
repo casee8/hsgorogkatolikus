@@ -9,10 +9,11 @@ import Bible from "./pages/Bible";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-// import CookieNote from "./components/CookieNote";
+import CookieNote from "./components/CookieNote";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import Foundation from "./components/Foundation";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -31,9 +32,10 @@ function App() {
             <Route exact path="/news" component={News} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/communityhouse" component={CommunityHouse} />
+            <Route exact path="/privacy-policy" component={PrivacyPolicy} />
           </Switch>
         </div>
-        {/* <CookieNote /> */}
+        <CookieNote />
         <Footer />
       </div>
     </Router>

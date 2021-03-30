@@ -6,7 +6,7 @@ import ICXC_NIKA from "../media/ICXC_NIKA.svg";
 const Navbar = () => {
   return (
     <nav className="navbar bg-primary">
-      <Link to='/'>
+      <Link to="/">
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src={ICXC_NIKA}
@@ -18,7 +18,10 @@ const Navbar = () => {
             }}
             alt="logo"
           />
-          <p className='title' style={{ display: "inline-block" }}>
+          <p
+            className="title"
+            style={{ display: "inline-block", fontSize: "0.7rem" }}
+          >
             Hajdúsámsoni
             <br />
             Görögkatolikus Parókia

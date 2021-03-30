@@ -131,7 +131,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mb-1">
+      <div>
         <h3 className="title header text-center py-3">
           A Hajdúsámsoni Görögkatolikus Egyház története
         </h3>
