@@ -5,6 +5,7 @@ import entryToJerusalem from "../media/Entry_into_Jerusalem_Hajdudorog_Frame.jpg
 import lastSupper from "../media/last-supper.jpg";
 import jezusKereszthalala from "../media/jezus_kereszthalala.jpg";
 import jezusFeltamadasa from "../media/jesus-ressurection.jpg";
+import judasBetraysChrist from "../media/judas_betrays_christ.jpg";
 
 class News extends Component {
   render() {
@@ -37,6 +38,9 @@ class News extends Component {
               <div className="mb">
                 <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
                   <img src={lastSupper} alt="Utolsó vacsora" />
+                </LazyLoad>
+                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
+                  <img src={judasBetraysChrist} alt="Júdás elárulja Krisztust" />
                 </LazyLoad>
                 <p className="ps">
                   Nagycsütörtök (április 1) – 17:00-tól kínszenvedés evangélium

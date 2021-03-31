@@ -77,7 +77,8 @@ ul {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 400px;
 }
 
 /* Utilities */
@@ -717,7 +718,7 @@ table th {
 
   .cookie-note {
     left: unset;
-    right: 0;
+    right: 2rem;
     width: 300px;
   }
 }
