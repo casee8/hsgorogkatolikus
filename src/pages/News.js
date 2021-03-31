@@ -13,7 +13,7 @@ class News extends Component {
         <h3 className="title header text-center py-3">
           Görögkatolikus hírek, események
         </h3>
-        <div className="flexible-grid">
+        <div className="flexible-grid mb-1">
           <div className="content mb-1">
             <h4 className="p-1">Húsvéti Ünnepkör</h4>
             <div>
@@ -25,9 +25,13 @@ class News extends Component {
                   />
                 </LazyLoad>
                 <p className="ps">
-                  Virágvasárnap (március 28) 11:00 órától{" "}
-                  <strong>barkaszenteléssel</strong> {" "}
-                  összekötött liturgia lesz - Jézus Jeruzsálembe való bevonulása
+                  Virágvasárnap (március 28) - 11:00 órától,{" "}
+                  <strong>barkaszenteléssel</strong> összekötött liturgia
+                </p>
+              </div>
+              <div className="mb">
+                <p className="ps">
+                  Nagyszerda (március 31) – 17:00-tól előszenteltek liturgiája
                 </p>
               </div>
               <div className="mb">
@@ -35,8 +39,8 @@ class News extends Component {
                   <img src={lastSupper} alt="Utolsó vacsora" />
                 </LazyLoad>
                 <p className="ps">
-                  Nagycsütörtök (április 1) - Liturgia 17:00-kor - Utolsó
-                  vacsora
+                  Nagycsütörtök (április 1) – 17:00-tól kínszenvedés evangélium
+                  végzése
                 </p>
               </div>
               <div className="mb">
@@ -44,8 +48,7 @@ class News extends Component {
                   <img src={jezusKereszthalala} alt="Jézus kereszthalála" />
                 </LazyLoad>
                 <p className="ps">
-                  Nagypéntek (április 2) - Liturgia 15:00-kor - Jézus
-                  kereszthalála
+                  Nagypéntek (április 2) – 15:00-tól sírbatételi vecsernye
                 </p>
               </div>
               <div className="mb">
@@ -53,18 +56,18 @@ class News extends Component {
                   <img src={jezusFeltamadasa} alt="Jézus feltámadása" />
                 </LazyLoad>
                 <p className="ps">
-                  Nagyszombat (április 3) - Liturgia 17:00-kor - Jézus
-                  feltámadása
+                  Nagyszombat (április 3) – 17:00-tól föltámadási szertartás
                 </p>
               </div>
               <div>
                 <p className="mb ps">
-                  Húsvét vasárnap (április 4) <strong>pászkaszentelés</strong>{" "}
-                  lesz 8:30-tól
+                  Húsvét vasárnap (április 4) - 9:00-tól liturgia és{" "}
+                  <strong>pászkaszentelés</strong>
                 </p>
                 <p className="mb ps">
-                  Húsvét hétfőn (április 5) 11:00 órától lesz a liturgia.
+                  Húsvét hétfő (április 5) - 11:00 szent liturgia
                 </p>
+                <p className="mb ps">Kedd (április 6) - 11:00 szent liturgia</p>
               </div>
             </div>
           </div>
