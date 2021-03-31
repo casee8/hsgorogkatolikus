@@ -26,7 +26,7 @@ class MainPage extends Component {
         <Link to='/news'>
           <div className="content p-1 mb-1">
             <h4 className="pb">Húsvéti Ünnepkör</h4>
-            <LazyLoad debounce={false} offsetVertical={500}>
+            <LazyLoad className='all-center' debounce={false} offsetVertical={500}>
               <img src={cross3x} alt="3 kereszt" />
             </LazyLoad>
           </div>

@@ -14,11 +14,11 @@ class News extends Component {
           Görögkatolikus hírek, események
         </h3>
         <div className="flexible-grid mb-1">
-          <div className="content mb-1">
+          <div className="content mb-1 text-center">
             <h4 className="p-1">Húsvéti Ünnepkör</h4>
             <div>
               <div className="mb">
-                <LazyLoad debounce={false} offsetVertical={500}>
+                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
                   <img
                     src={entryToJerusalem}
                     alt="Jézus Jeruzsálembe való bevonulása"
@@ -35,7 +35,7 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad debounce={false} offsetVertical={500}>
+                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
                   <img src={lastSupper} alt="Utolsó vacsora" />
                 </LazyLoad>
                 <p className="ps">
@@ -44,7 +44,7 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad debounce={false} offsetVertical={500}>
+                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
                   <img src={jezusKereszthalala} alt="Jézus kereszthalála" />
                 </LazyLoad>
                 <p className="ps">
@@ -52,7 +52,7 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad debounce={false} offsetVertical={500}>
+                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
                   <img src={jezusFeltamadasa} alt="Jézus feltámadása" />
                 </LazyLoad>
                 <p className="ps">
@@ -73,7 +73,7 @@ class News extends Component {
           </div>
           <div className="content mb-1">
             <h4 className="p-1">Nagyböjt kezdete</h4>
-            <LazyLoad debounce={false} offsetVertical={500}>
+            <LazyLoad className='all-center' debounce={false} offsetVertical={500}>
               <img src={fasting} alt="Nagyböjt" />
             </LazyLoad>
             <div className="p-1">
