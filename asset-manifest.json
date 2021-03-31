@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.83a9c2db.chunk.css",
-    "main.js": "/static/js/main.742ebafe.chunk.js",
-    "main.js.map": "/static/js/main.742ebafe.chunk.js.map",
+    "main.css": "/static/css/main.03ad1df9.chunk.css",
+    "main.js": "/static/js/main.06b5d5e5.chunk.js",
+    "main.js.map": "/static/js/main.06b5d5e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d9a846c.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d9a846c.js.map",
-    "static/js/2.b21a8084.chunk.js": "/static/js/2.b21a8084.chunk.js",
-    "static/js/2.b21a8084.chunk.js.map": "/static/js/2.b21a8084.chunk.js.map",
+    "static/js/2.702bbb3d.chunk.js": "/static/js/2.702bbb3d.chunk.js",
+    "static/js/2.702bbb3d.chunk.js.map": "/static/js/2.702bbb3d.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.83a9c2db.chunk.css.map": "/static/css/main.83a9c2db.chunk.css.map",
-    "static/js/2.b21a8084.chunk.js.LICENSE.txt": "/static/js/2.b21a8084.chunk.js.LICENSE.txt",
+    "static/css/main.03ad1df9.chunk.css.map": "/static/css/main.03ad1df9.chunk.css.map",
+    "static/js/2.702bbb3d.chunk.js.LICENSE.txt": "/static/js/2.702bbb3d.chunk.js.LICENSE.txt",
     "static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf": "/static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf",
     "static/media/Entry_into_Jerusalem_Hajdudorog_Frame.4220ef62.jpg": "/static/media/Entry_into_Jerusalem_Hajdudorog_Frame.4220ef62.jpg",
     "static/media/ICXC_NIKA.45b76602.svg": "/static/media/ICXC_NIKA.45b76602.svg",
@@ -25,6 +25,7 @@
     "static/media/hierotheosz_puspok.6234e654.jpg": "/static/media/hierotheosz_puspok.6234e654.jpg",
     "static/media/jesus-ressurection.d648efa2.jpg": "/static/media/jesus-ressurection.d648efa2.jpg",
     "static/media/jezus_kereszthalala.e8f8f435.jpg": "/static/media/jezus_kereszthalala.e8f8f435.jpg",
+    "static/media/judas_betrays_christ.52c10e77.jpg": "/static/media/judas_betrays_christ.52c10e77.jpg",
     "static/media/last-supper.163e92dc.jpg": "/static/media/last-supper.163e92dc.jpg",
     "static/media/logo-szukre-mediakozpont2019-436x429-1.b2fbae5f.png": "/static/media/logo-szukre-mediakozpont2019-436x429-1.b2fbae5f.png",
     "static/media/map.58cfd678.jpg": "/static/media/map.58cfd678.jpg",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4d9a846c.js",
-    "static/js/2.b21a8084.chunk.js",
-    "static/css/main.83a9c2db.chunk.css",
-    "static/js/main.742ebafe.chunk.js"
+    "static/js/2.702bbb3d.chunk.js",
+    "static/css/main.03ad1df9.chunk.css",
+    "static/js/main.06b5d5e5.chunk.js"
   ]
 }
