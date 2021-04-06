@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.03ad1df9.chunk.css",
-    "main.js": "/static/js/main.06b5d5e5.chunk.js",
-    "main.js.map": "/static/js/main.06b5d5e5.chunk.js.map",
+    "main.js": "/static/js/main.bf4b6f07.chunk.js",
+    "main.js.map": "/static/js/main.bf4b6f07.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d9a846c.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d9a846c.js.map",
-    "static/js/2.702bbb3d.chunk.js": "/static/js/2.702bbb3d.chunk.js",
-    "static/js/2.702bbb3d.chunk.js.map": "/static/js/2.702bbb3d.chunk.js.map",
+    "static/js/2.19149a19.chunk.js": "/static/js/2.19149a19.chunk.js",
+    "static/js/2.19149a19.chunk.js.map": "/static/js/2.19149a19.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/main.03ad1df9.chunk.css.map": "/static/css/main.03ad1df9.chunk.css.map",
-    "static/js/2.702bbb3d.chunk.js.LICENSE.txt": "/static/js/2.702bbb3d.chunk.js.LICENSE.txt",
+    "static/js/2.19149a19.chunk.js.LICENSE.txt": "/static/js/2.19149a19.chunk.js.LICENSE.txt",
     "static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf": "/static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf",
     "static/media/Entry_into_Jerusalem_Hajdudorog_Frame.4220ef62.jpg": "/static/media/Entry_into_Jerusalem_Hajdudorog_Frame.4220ef62.jpg",
     "static/media/ICXC_NIKA.45b76602.svg": "/static/media/ICXC_NIKA.45b76602.svg",
     "static/media/alapito_bulla.b6781610.jpg": "/static/media/alapito_bulla.b6781610.jpg",
     "static/media/App.css": "/static/media/background.6d6c5354.jpg",
-    "static/media/cross3x.4cf9a1f4.jpg": "/static/media/cross3x.4cf9a1f4.jpg",
     "static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg": "/static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg",
     "static/media/dudas_miklos_puspok.98eb8c75.jpg": "/static/media/dudas_miklos_puspok.98eb8c75.jpg",
     "static/media/fasting.0b8ee118.jpg": "/static/media/fasting.0b8ee118.jpg",
@@ -36,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4d9a846c.js",
-    "static/js/2.702bbb3d.chunk.js",
+    "static/js/2.19149a19.chunk.js",
     "static/css/main.03ad1df9.chunk.css",
-    "static/js/main.06b5d5e5.chunk.js"
+    "static/js/main.bf4b6f07.chunk.js"
   ]
 }
