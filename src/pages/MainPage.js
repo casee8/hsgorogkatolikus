@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import LazyLoad from "react-lazy-load";
-import cross3x from "..//media/cross3x.jpg";
 
 class MainPage extends Component {
   render() {
@@ -23,14 +20,6 @@ class MainPage extends Component {
             gazdagítani egyházunk és városunk életét.
           </p>
         </div>
-        <Link to='/news'>
-          <div className="content p-1 mb-1">
-            <h4 className="pb">Húsvéti Ünnepkör</h4>
-            <LazyLoad className='all-center' debounce={false} offsetVertical={500}>
-              <img src={cross3x} alt="3 kereszt" />
-            </LazyLoad>
-          </div>
-        </Link>
         <div className="content p-1">
           <h4 className="text-center pb-1">Szertartásaink</h4>
           <h4 className="pb">Vasárnap:</h4>
