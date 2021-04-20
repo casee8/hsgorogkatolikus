@@ -29,6 +29,14 @@ body {
   min-height: calc(100vh - 65px);
 }
 
+.icon-links-container {
+  background: #ECF0F1;
+}
+
+.icon-links {
+  width: 150px;
+}
+
 .cookie-note {
   position: fixed;
   z-index: 2;
@@ -597,6 +605,7 @@ table th {
   font-weight: 900;
   border-top-right-radius: 5rem;
   border-bottom-right-radius: 5rem;
+  border: 1px solid var(--primary-color);
   padding: 1rem;
 }
 
