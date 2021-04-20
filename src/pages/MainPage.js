@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import LazyLoad from "react-lazy-load";
+import { Link } from "react-router-dom";
+import maripocs from "../media/mariapocs.jpg";
 
 class MainPage extends Component {
   render() {
@@ -19,6 +22,23 @@ class MainPage extends Component {
             közösség életében. Továbbra is szeretnénk aktív értékteremtőként
             gazdagítani egyházunk és városunk életét.
           </p>
+        </div>
+        <div className="content mb-1 p-1">
+          <Link to={"/news"}>
+            <div className='text-over-img'>
+              <LazyLoad
+                className="all-center mb"
+                debounce={false}
+                offsetVertical={500}
+              >
+                <img src={maripocs} alt="Jézus Jeruzsálembe való bevonulása" />
+              </LazyLoad>
+              <p className="title bottom-left small">
+                Április 25-én, a vasárnapi Szent Liturgia 9 órakor kezdődik.
+                Tovább...
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="content p-1">
           <h4 className="text-center pb-1">Szertartásaink</h4>

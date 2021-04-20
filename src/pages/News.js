@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import LazyLoad from "react-lazy-load";
-import fasting from "../media/fasting.jpg";
-import entryToJerusalem from "../media/Entry_into_Jerusalem_Hajdudorog_Frame.jpg";
-import lastSupper from "../media/last-supper.jpg";
-import jezusKereszthalala from "../media/jezus_kereszthalala.jpg";
-import jezusFeltamadasa from "../media/jesus-ressurection.jpg";
-import judasBetraysChrist from "../media/judas_betrays_christ.jpg";
+import mariapocs from "../media/mariapocs.jpg";
+// import fasting from "../media/fasting.jpg";
+// import entryToJerusalem from "../media/Entry_into_Jerusalem_Hajdudorog_Frame.jpg";
+// import lastSupper from "../media/last-supper.jpg";
+// import jezusKereszthalala from "../media/jezus_kereszthalala.jpg";
+// import jezusFeltamadasa from "../media/jesus-ressurection.jpg";
+// import judasBetraysChrist from "../media/judas_betrays_christ.jpg";
 
 class News extends Component {
   render() {
@@ -14,12 +15,45 @@ class News extends Component {
         <h3 className="title header text-center py-3">
           Görögkatolikus hírek, események
         </h3>
-        <div className="flexible-grid mb-1">
-          <div className="content mb-1 text-center">
+        <div className="mb-1">
+          <div className="content mb-1">
+            <h4 className="p-1 text-center">
+              Április 25-én, a vasárnapi Szent Liturgia 9 órakor kezdődik
+            </h4>
+            <div>
+              <div className="mb">
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
+                  <img src={mariapocs} alt="Máriapócs" />
+                </LazyLoad>
+                <p className="ps">
+                  Különleges lesz a mostani vasárnap, mivel{" "}
+                  <span className='title'>
+                    Máripócson Veres Zoltán kispapot Diakónussá szentelik
+                  </span>
+                  . Mindenkit szívesen látunk az eseményen, amely délelőtt 11:00
+                  órakor kezdődik (az utazást egyénileg kell megoldani). Az egyházközségünknek az érintettsége, hogy
+                  Surányi Mónika leendő tisztelendő asszony és Veres Zoltán a
+                  közelmúltban összeházasodtak.
+                </p>
+                <p className="quote text-center p">
+                  Kérjük rájuk Isten áldását és kegyelmét!
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="content mb-1 text-center">
             <h4 className="p-1">Húsvéti Ünnepkör</h4>
             <div>
               <div className="mb">
-                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
                   <img
                     src={entryToJerusalem}
                     alt="Jézus Jeruzsálembe való bevonulása"
@@ -36,11 +70,22 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
                   <img src={lastSupper} alt="Utolsó vacsora" />
                 </LazyLoad>
-                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
-                  <img src={judasBetraysChrist} alt="Júdás elárulja Krisztust" />
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
+                  <img
+                    src={judasBetraysChrist}
+                    alt="Júdás elárulja Krisztust"
+                  />
                 </LazyLoad>
                 <p className="ps">
                   Nagycsütörtök (április 1) – 17:00-tól kínszenvedés evangélium
@@ -48,7 +93,11 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
                   <img src={jezusKereszthalala} alt="Jézus kereszthalála" />
                 </LazyLoad>
                 <p className="ps">
@@ -56,7 +105,11 @@ class News extends Component {
                 </p>
               </div>
               <div className="mb">
-                <LazyLoad className='all-center mb' debounce={false} offsetVertical={500}>
+                <LazyLoad
+                  className="all-center mb"
+                  debounce={false}
+                  offsetVertical={500}
+                >
                   <img src={jezusFeltamadasa} alt="Jézus feltámadása" />
                 </LazyLoad>
                 <p className="ps">
@@ -77,7 +130,11 @@ class News extends Component {
           </div>
           <div className="content mb-1">
             <h4 className="p-1">Nagyböjt kezdete</h4>
-            <LazyLoad className='all-center' debounce={false} offsetVertical={500}>
+            <LazyLoad
+              className="all-center"
+              debounce={false}
+              offsetVertical={500}
+            >
               <img src={fasting} alt="Nagyböjt" />
             </LazyLoad>
             <div className="p-1">
@@ -141,7 +198,7 @@ class News extends Component {
                 megszentelt áldozatok liturgiáját végzik.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
