@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.45096549.chunk.css",
-    "main.js": "/static/js/main.69d804c8.chunk.js",
-    "main.js.map": "/static/js/main.69d804c8.chunk.js.map",
+    "main.css": "/static/css/main.79ea3e99.chunk.css",
+    "main.js": "/static/js/main.1d7b4507.chunk.js",
+    "main.js.map": "/static/js/main.1d7b4507.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4d9a846c.js",
     "runtime-main.js.map": "/static/js/runtime-main.4d9a846c.js.map",
     "static/js/2.702bbb3d.chunk.js": "/static/js/2.702bbb3d.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.45096549.chunk.css.map": "/static/css/main.45096549.chunk.css.map",
+    "static/css/main.79ea3e99.chunk.css.map": "/static/css/main.79ea3e99.chunk.css.map",
     "static/js/2.702bbb3d.chunk.js.LICENSE.txt": "/static/js/2.702bbb3d.chunk.js.LICENSE.txt",
     "static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf": "/static/media/Adatvedelmi_tajekoztato.1e4cc8fa.pdf",
     "static/media/ICXC_NIKA.45b76602.svg": "/static/media/ICXC_NIKA.45b76602.svg",
@@ -18,13 +18,13 @@
     "static/media/App.css": "/static/media/background.6d6c5354.jpg",
     "static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg": "/static/media/debreceni_bombamerenylet_aldozatai.6b2ddd8f.jpg",
     "static/media/dudas_miklos_puspok.98eb8c75.jpg": "/static/media/dudas_miklos_puspok.98eb8c75.jpg",
+    "static/media/flower.3f75dc5c.jpg": "/static/media/flower.3f75dc5c.jpg",
     "static/media/gorogkatolikusmetropolia.967eec22.jpg": "/static/media/gorogkatolikusmetropolia.967eec22.jpg",
     "static/media/greek_catholic_church_historical_hajdudorog.a2d46f11.jpg": "/static/media/greek_catholic_church_historical_hajdudorog.a2d46f11.jpg",
     "static/media/hajdudorogi-foegyhazmegye.b6b9e878.jpg": "/static/media/hajdudorogi-foegyhazmegye.b6b9e878.jpg",
     "static/media/hierotheosz_puspok.6234e654.jpg": "/static/media/hierotheosz_puspok.6234e654.jpg",
     "static/media/map.58cfd678.jpg": "/static/media/map.58cfd678.jpg",
     "static/media/mariapocs-nemzeti-kegyhely.78127237.jpg": "/static/media/mariapocs-nemzeti-kegyhely.78127237.jpg",
-    "static/media/mariapocs.9ff94d6c.jpg": "/static/media/mariapocs.9ff94d6c.jpg",
     "static/media/miklosy_szenteles_utan.e8d8519d.jpg": "/static/media/miklosy_szenteles_utan.e8d8519d.jpg",
     "static/media/miskolci-egyhazmegye.92f9c701.jpg": "/static/media/miskolci-egyhazmegye.92f9c701.jpg",
     "static/media/nyiregyhazi-foegyhazmegye.943c6295.jpg": "/static/media/nyiregyhazi-foegyhazmegye.943c6295.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d9a846c.js",
     "static/js/2.702bbb3d.chunk.js",
-    "static/css/main.45096549.chunk.css",
-    "static/js/main.69d804c8.chunk.js"
+    "static/css/main.79ea3e99.chunk.css",
+    "static/js/main.1d7b4507.chunk.js"
   ]
 }
