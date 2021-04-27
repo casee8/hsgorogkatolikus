@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import LazyLoad from "react-lazy-load";
-import mariapocs from "../media/mariapocs.jpg";
+import flower from "../media/flower.jpg";
 // import fasting from "../media/fasting.jpg";
 // import entryToJerusalem from "../media/Entry_into_Jerusalem_Hajdudorog_Frame.jpg";
 // import lastSupper from "../media/last-supper.jpg";
@@ -18,7 +18,7 @@ class News extends Component {
         <div className="mb-1">
           <div className="content mb-1">
             <h4 className="p-1 text-center">
-              Április 25-én, a vasárnapi Szent Liturgia 9 órakor kezdődik
+              Május 1. vasárnapja, Anyák napja
             </h4>
             <div>
               <div className="mb">
@@ -27,20 +27,13 @@ class News extends Component {
                   debounce={false}
                   offsetVertical={500}
                 >
-                  <img src={mariapocs} alt="Máriapócs" />
+                  <img src={flower} alt="Isten éltesse az Édesanyákat!" />
                 </LazyLoad>
-                <p className="ps">
-                  Különleges lesz a mostani vasárnap, mivel{" "}
-                  <span className='title'>
-                    Máripócson Veres Zoltán kispapot Diakónussá szentelik
-                  </span>
-                  . Mindenkit szívesen látunk az eseményen, amely délelőtt 11:00
-                  órakor kezdődik (az utazást egyénileg kell megoldani). Az egyházközségünknek az érintettsége, hogy
-                  Surányi Mónika leendő tisztelendő asszony és Veres Zoltán a
-                  közelmúltban összeházasodtak.
+                <p className="ps text-center">
+                  Vasárnap, a Szent Liturgia után köszöntjük az Édesanyákat és megáldjuk és megszenteljük őket.
                 </p>
                 <p className="quote text-center p">
-                  Kérjük rájuk Isten áldását és kegyelmét!
+                  Isten éltesse az Édesanyákat!
                 </p>
               </div>
             </div>

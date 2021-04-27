@@ -26,7 +26,7 @@ body {
 }
 
 .for-footer {
-  min-height: calc(100vh - 65px);
+  min-height: calc(100vh - 110px);
 }
 
 .icon-links-container {

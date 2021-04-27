@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import LazyLoad from "react-lazy-load";
 import { Link } from "react-router-dom";
-import maripocs from "../media/mariapocs.jpg";
+import flower from "../media/flower.jpg";
 
 class MainPage extends Component {
   render() {
@@ -25,17 +25,16 @@ class MainPage extends Component {
         </div>
         <div className="content mb-1 p-1">
           <Link to={"/news"}>
-            <div className='text-over-img'>
+            <div className="text-over-img">
               <LazyLoad
-                className="all-center mb"
+                className="all-center"
                 debounce={false}
                 offsetVertical={500}
               >
-                <img src={maripocs} alt="Jézus Jeruzsálembe való bevonulása" />
+                <img src={flower} alt="Isten éltesse az Édesanyákat!" />
               </LazyLoad>
               <p className="title bottom-left small">
-                Április 25-én, a vasárnapi Szent Liturgia 9 órakor kezdődik.
-                Tovább...
+                Május 1. vasárnapja, Anyák napja<br />Tovább...
               </p>
             </div>
           </Link>
