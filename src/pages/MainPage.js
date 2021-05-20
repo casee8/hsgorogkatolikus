@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import LazyLoad from "react-lazy-load";
 import { Link } from "react-router-dom";
-import flower from "../media/flower.jpg";
+import mariapocsiSzuzanya from "../media/mariapocsi-szuzanya.jpg";
 
 class MainPage extends Component {
   render() {
@@ -31,10 +31,10 @@ class MainPage extends Component {
                 debounce={false}
                 offsetVertical={500}
               >
-                <img src={flower} alt="Isten éltesse az Édesanyákat!" />
+                <img src={mariapocsiSzuzanya} alt="Ikonfestő-kör" />
               </LazyLoad>
               <p className="title bottom-left small">
-                Május 1. vasárnapja, Anyák napja<br />Tovább...
+                Ikonfestő-kör indul a Hit és Kulturális Közösségi házban<br />Tovább...
               </p>
             </div>
           </Link>

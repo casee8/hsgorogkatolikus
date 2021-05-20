@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import CookieNote from "./components/CookieNote";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop";
-import Foundation from "./components/Foundation";
+// import Foundation from "./components/Foundation";
 import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <div>
         <div className="for-footer">
           <Navbar />
-          <Foundation />
+          {/* <Foundation /> */}
           <ScrollToTop />
           <Switch>
             <Route exact path="/" component={MainPage} />
